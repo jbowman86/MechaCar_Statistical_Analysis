@@ -14,14 +14,14 @@ The MechaCar dataset contains a sample size of 50 prototypes measuring the miles
 
 R script was applied to the dataset on several variables to get the following coefficients.  
 
-INSERT IMAGE 1_LIN_REG
+![](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/019590fbffac223b47fa71a6e90bfc8da2d631f2/Resources/Deliv1_console.png)
 
 
 ### Summary of Linear Regression model
 
 A summary of the linear regression can be displayed to determine the quality of the dataset.  In this distribution of the residuals, the dataset fits in with the normal parameters, where the absolute value of the min and max are comparable |-19.47|~|18.58| and the median -.07 is close to zero.
 
-INSERT IMAGE 1_SUN_STAT
+![](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/019590fbffac223b47fa71a6e90bfc8da2d631f2/Resources/Deliv1_console.png)
 
 1.	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
        
@@ -56,9 +56,11 @@ R-squared is .7149, which is a strong correlation for the dataset and shows the 
 
 ## Summary Statistics on Suspension Coils
 ### Manufacturing Lot Summary
+
 Below is the summary statistics of all of the manufacturing lots.  The mean is 1498.78 for this sample and the population mean was determined to be 1500.   
 
-INSERT 3_TOT_SUM.PNG
+
+![](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/019590fbffac223b47fa71a6e90bfc8da2d631f2/Resources/Total_Sum.png)
 
 ### Summary by Manufacturing Lot Number
 The means of the lot numbers are similar to the population mean and the sample mean.  
