@@ -28,12 +28,12 @@ A summary of the linear regression can be displayed to determine the quality of 
 A 95% level of confidence was utilized; therefore, the p-value should be compared to alpha = .05 level of significance to verify if statistically significant.     
 
 Coefficients:      
-mpg: 0 < .05, statistically significant, non-random amount of variance     
-vehicle length: 0 < .05, statistically significant, non-random amount of variance     
-vehicle weight: .08 > .05 not statistically significant, random amount of variance     
-spoiler angle: .31 > .05 not statistically significant, random amount of variance    
-ground clearance: 0 < .05 statistically significant, non-random amount of variance    
-AWD: .19>=.05 not statistically significant, random amount of variance     
+mpg: 0 < 0.05, statistically significant, non-random amount of variance     
+vehicle length: 0 < 0.05, statistically significant, non-random amount of variance     
+vehicle weight: .08 > 0.05 not statistically significant, random amount of variance     
+spoiler angle: .31 > 0.05 not statistically significant, random amount of variance    
+ground clearance: 0 < 0.05 statistically significant, non-random amount of variance    
+AWD: .19 > 0.05 not statistically significant, random amount of variance     
 
 In summary, vehicle length and ground clearance variables represent non-random amounts of variance in determining the mpg values.    
 
