@@ -86,16 +86,16 @@ A summary of the t-test results for individual manufacturing lots is included be
 
 ![](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/e3d364a9c25067c3a531fd581bfd4a705202786f/Resources/t_test_lot.png)
 
-Lot 1: p-value = 1, alpha = .05    
+Lot 1: p-value = 1, alpha = 0.05    
 The p-value is greater than 0.05 which means Lot 1 is not statistically significant from the normal distribution and normality can be assumed.  The mean falls within the 95% confidence interval.
 
-Lot 2: p-value = .6072, alpha = .05 
+Lot 2: p-value = 0.6072, alpha = 0.05 
 The p-value is greater than 0.05 which means Lot 2 is not statistically significant from the normal distribution and normality can be assumed.  The mean falls within the 95% confidence interval.
 
-Lot 3: p-value = .04168, alpha = .05   
+Lot 3: p-value = 0.04168, alpha = 0.05   
 The p-value is less than 0.05 which means it is statistically significant from the normal distribution and normality cannot be assumed.  However, the mean falls within the 95% confidence interval.
 
-The overall manufacturing, Lot 1, and Lot 2 show a normal distribution.  Therefore, there is not sufficient evidence to reject the null hypothesis, which shows the two means are statistically similar.  Lot 3 shows some irregularities and the process needs to be checked for system failures that may have led to the suspension coils from this lot not meeting the established quality criteria.
+The total manufacturing lots as well as Lot 1 and Lot 2 were shown to have a normal distribution and p-values above the 0.05 significance level.  Therefore, there is not sufficient evidence to reject the null hypothesis, which shows the means for these three variables are statistically similar to the presumed population mean of 1500.  Lot 3 was shown to be statsitically different from the population mean for product quality.  Therefore, the manufacturing process needs to be checked for system failures that may have led to the suspension coils from this lot not meeting the established quality criteria.
 
 ## Study Design: MechaCar vs Competition
 
