@@ -74,10 +74,11 @@ The variance for the total manufacturing lot is approximately 62, which is withi
 ## T-Tests on Suspension Coils
 ### T-test for all Lots
 
-All Manufacturing Lots: p-value = .6028, alpha = .05   
-Since the p-value is greater than 0.05, the total manufacturing lot is not considered statistically significant from the normal distribution and normality can be assumed.  The mean falls within the 95% confidence interval.
+A summary of the t-test results for all manufacturing lots is included below:
 
-![](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/a0d66ad20a12dd5a851f91dc2de4309dc73b6926/Resources/Lot_All.png)
+![](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/83a927d6fbc2f633bebf33f168642acd34a2acd7/Resources/t_test_all.png)
+  
+The true mean of the sample was 1498.78.  The calculated p-value was 0.06 which is higher than the established significance level of 0.05.  Since the p-value is greater than 0.05, the total manufacturing lot is not considered statistically significant from the normal distribution and normality can be assumed.   In other terms, the mean of all three manufacturing lots is statistically similar to the presumed population mean of 1500.
 
 ### T-test for Lot 1
 
