@@ -80,7 +80,7 @@ A summary of the t-test results for all manufacturing lots is included below:
   
 The true mean of the sample was 1498.78.  The calculated p-value was 0.06 which is higher than the established significance level of 0.05.  Since the p-value is greater than 0.05, the total manufacturing lot is not considered statistically significant from the normal distribution and normality can be assumed.   In other terms, the mean of all three manufacturing lots is statistically similar to the presumed population mean of 1500.
 
-### T-test for Lot 1
+### T-test for Indiviudal Lots
 
 A summary of the t-test results for individual manufacturing lots is in included below:
 
@@ -89,27 +89,13 @@ A summary of the t-test results for individual manufacturing lots is in included
 Lot 1: p-value = 1, alpha = .05    
 The p-value is greater than 0.05 which means Lot 1 is not statistically significant from the normal distribution and normality can be assumed.  The mean falls within the 95% confidence interval.
 
-![
-](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/a0d66ad20a12dd5a851f91dc2de4309dc73b6926/Resources/Lot_1.png)
-
-### T-test for Lot 2
-
 Lot 2: p-value = .6072, alpha = .05 
-
 The p-value is greater than 0.05 which means Lot 2 is not statistically significant from the normal distribution and normality can be assumed.  The mean falls within the 95% confidence interval.
-
-![
-](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/a0d66ad20a12dd5a851f91dc2de4309dc73b6926/Resources/Lot_2.png)
-
-### T-test for Lot 3
 
 Lot 3: p-value = .04168, alpha = .05   
 The p-value is less than 0.05 which means it is statistically significant from the normal distribution and normality cannot be assumed.  However, the mean falls within the 95% confidence interval.
 
-![](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/a0d66ad20a12dd5a851f91dc2de4309dc73b6926/Resources/Lot_3.png)
-
-
-The overall manufacturing, Lot 1, and Lot 2 show a normal distribution.  Therefore, there is not sufficient evidence to reject the null hypothesis, which shows the two means are statistically similar. 
+The overall manufacturing, Lot 1, and Lot 2 show a normal distribution.  Therefore, there is not sufficient evidence to reject the null hypothesis, which shows the two means are statistically similar.  Lot 3 shows some irregularities and the process needs to be checked for system failures that may have led to the suspension coils from this lot not meeting the established quality criteria.
 
 ## Study Design: MechaCar vs Competition
 
