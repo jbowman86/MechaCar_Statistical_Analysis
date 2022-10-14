@@ -19,13 +19,13 @@ R script was applied to the dataset on several variables to get the following co
 
 ### Summary of Linear Regression model
 
-A summary of the linear regression can be displayed to determine the quality of the dataset.  In this distribution of the residuals, the dataset fits in with the normal parameters, where the absolute value of the min and max are comparable |-19.47|~|18.58| and the median -.07 is close to zero.
+A summary of the linear regression can be displayed to determine the quality of the dataset.  In this distribution of the residuals, the dataset fits in with the normal parameters, where the absolute value of the min and max are comparable |-19.47|~|18.58| and the median -0.07 is close to zero.
 
 ![](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/019590fbffac223b47fa71a6e90bfc8da2d631f2/Resources/Deliv1_console.png)
 
 1.	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
        
-A 95% level of confidence was utilized; therefore, the p-value should be compared to alpha = .05 level of significance to verify if statistically significant.     
+A 95% level of confidence was utilized; therefore, the p-value should be compared to alpha = 0.05 level of significance to verify if statistically significant.     
 
 Coefficients:      
 mpg: 0 < 0.05, statistically significant, non-random amount of variance     
