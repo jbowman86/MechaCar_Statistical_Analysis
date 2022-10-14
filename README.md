@@ -82,7 +82,7 @@ The true mean of the sample was 1498.78.  The calculated p-value was 0.06 which 
 
 ### T-test for Indiviudal Lots
 
-A summary of the t-test results for individual manufacturing lots is in included below:
+A summary of the t-test results for individual manufacturing lots is included below:
 
 ![](https://github.com/jbowman86/MechaCar_Statistical_Analysis/blob/e3d364a9c25067c3a531fd581bfd4a705202786f/Resources/t_test_lot.png)
 
