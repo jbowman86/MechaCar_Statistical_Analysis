@@ -108,11 +108,11 @@ The overall manufacturing, Lot 1, and Lot 2 show a normal distribution.  Therefo
 
 ## Study Design: MechaCar vs Competition
 
-When comparing MechaCar to its competitors some additional metrics that could be of interest to a consumer could include cost, car color, city fuel efficiency, highway fuel efficiency, horsepower, maintenance cost, or safety rating.
+When comparing MechaCar to its competitors some additional metrics that could be of interest to a consumer could include city fuel efficiency, highway fuel efficiency, horsepower, maintenance cost, and/or safety rating.
 
 1.	What metric or metrics are you going to test?   
 
-The next metrics to test should be the maintenance cost, horsepower, and highway fuel efficiency and their impact on overall safety ratings for MechaCar compared to their competitors.
+The next metrics to test should be exploring the impact of maintenance cost, horsepower, city fuel efficiency and highway fuel efficiency on overall safety ratings for MechaCar compared to their competitors.
 
 2.	What is the null hypothesis or alternative hypothesis?  
   
