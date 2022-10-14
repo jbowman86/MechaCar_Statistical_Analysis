@@ -107,13 +107,13 @@ The next metrics to test should be exploring the impact of maintenance cost, hor
 
 2.	What is the null hypothesis or alternative hypothesis?  
   
-The null hypothesis is that the mean of the safety rating is zero. The alternative hypothesis is that the mean of the safety rating is not zero.
+The null hypothesis is that the mean of the safety rating is similar to between MechaCar and its competitors. The alternative hypothesis is that the mean of the safety rating between MechaCar and its competitors is not equal.
 
 3.	What statistical test would you use to test the hypothesis? And why? 
     
-Using a multiple linear regression statistical summary would show how the variables, such as maintenance cost, horsepower, city fuel efficiency and highway fuel efficiency, impact the safety ratings for MechaCar and their competitors.  A model similar to linear regression model in Deliverable 1 would be ideal.  In this model, the independent variables being tested include: maintenance cost, horsepower, city fuel efficiency and highway fuel efficiency.  The dependent variable is therefore the safety rating for the vehicles.  The overall fit (or predictive value) of the model would be determined using the R-squared value.  
+Using a multiple linear regression statistical summary would show how the variables, such as maintenance cost, horsepower, city fuel efficiency and highway fuel efficiency, impact the safety ratings for MechaCar and their competitors.  A model similar to linear regression model in Deliverable 1 would be ideal.  In this model, the independent variables being tested include: maintenance cost, horsepower, city fuel efficiency and highway fuel efficiency.  The dependent variable is therefore the safety rating for the vehicles.  The overall fit (or predictive value) of the model would be determined using the R-squared value.  Furthermore, two-sample t-tests comparing the safety ratings of MechaCar vehicles to each of its competitors can help determine whether MechaCar vehicles are significantly safer than their competitors.
 
 4.	What data is needed to run the statistical test?     
 
-A random sample of n > 50 for MechaCar and their competitors, would need to be collected including the safety ratings, city fuel efficiency, highway fuel efficiency, maintenance costs and horsepower of each vehicle.  RStudio would then be used to construct the linear regression model. 
+A random sample of n > 50 for MechaCar and their competitors would need to be collected including the safety ratings, city fuel efficiency, highway fuel efficiency, maintenance costs and horsepower of each vehicle.  RStudio would then be used to construct the linear regression model and perform of the t-test calculations.
 
